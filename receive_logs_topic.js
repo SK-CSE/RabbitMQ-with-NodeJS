@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// Topics sender
+
 var amqp = require('amqplib/callback_api');
 var args = process.argv.slice(2);
 
